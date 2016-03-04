@@ -1,0 +1,42 @@
+# Version: 9.4.1.25 (cycle6-xi: 962a050)
+# [first argument, ignore] # /Users/vimalkumar/personal/TestDeveloper/TestDeveloper/mtouch.exe
+/Library/Frameworks/Xamarin.iOS.framework/Versions/9.4.1.25/bin/mtouch \
+	--cache \
+	/Users/vimalkumar/personal/TestDeveloper/TestDeveloper/obj/iPhone/Debug/mtouch-cache \
+	--dev \
+	/Users/vimalkumar/personal/TestDeveloper/TestDeveloper/bin/iPhone/Debug/TestDeveloper.app \
+	--executable \
+	TestDeveloper \
+	--debug \
+	--linksdkonly \
+	--sdkroot \
+	/Applications/Xcode.app/Contents/Developer \
+	--sdk \
+	9.2 \
+	--targetver \
+	9.2 \
+	--aot-options=-O=float32 \
+	--new-refcount \
+	"--abi=armv7,armv7s,arm64" \
+	--symbollist \
+	/Users/vimalkumar/personal/TestDeveloper/TestDeveloper/obj/iPhone/Debug/mtouch-symbols.list \
+	--dsym=no \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Xml.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Xamarin.iOS.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Xml.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Xamarin.iOS.dll \
+	--target-framework \
+	"Xamarin.iOS,v1.0" \
+	/Users/vimalkumar/personal/TestDeveloper/TestDeveloper/bin/iPhone/Debug//TestDeveloper.exe \
